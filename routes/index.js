@@ -130,7 +130,7 @@ router.get('/evaluating', function(req, res, next) {
   
   var HAVE_TEXTBOOK        = true;                      /* 需要评教材 */
   var HAVE_ANOTHER_TEACHER = false;                     /* 同一门课程需要评价两位教师 */
-  var HAVE_ANOTHER_ANOTHER_TEACHER = false;             /* 同一门课程需要评价两位教师 */
+  var HAVE_ANOTHER_ANOTHER_TEACHER = false;             /* 同一门课程需要评价三位教师 */
   
   var __EVENTTARGET     = "";
   var __EVENTARGUMENT   = "";
