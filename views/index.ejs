@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css" />
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/default.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+  </head>
+  <body>
+    <div id="error"></div>
+    <div class="htmleaf-container">
+      <div class="wrapper">
+          <div class="container">
+            <h1 id="welcome">Welcome</h1>
+            <form class="form">
+              <input type="text" placeholder="Student number" id="StudentNum">
+              <input type="password" placeholder="Password" id="Password">
+              <div id="CheckCodeBox">
+                <input type="text" id="CodeInput">
+                <img src="<%= CheckCode %>" alt="CheckCode" id="CheckCode">
+              </div>
+              <button type="submit" id="login-button">Login</button>
+            </form>
+            <div id="content">
+              <div id="user"></div>
+              <div id="words">&nbsp;&nbsp;你需要评价的课程</div>
+              <ul id="courses"></ul>
+              <input type="button" id="evaluating" value="一键评价">
+            </div>
+          </div>
+        
+          <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          
+          
+      </div>
+	   </div>
+     <div id="contact">
+     <p class="QQ">我的QQ ：2711928721</p>
+      <p class="我的GitHub">我的GitHub ：<a href="https://github.com/JerelLin">https://github.com/JerelLin</a></p>
+     </div>
+	
+	<script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="/javascripts/jquery-2.1.1.min.js"><\/script>')</script>
+  <script src="/javascripts/login.js"></script>
+  </body>
+</html>
